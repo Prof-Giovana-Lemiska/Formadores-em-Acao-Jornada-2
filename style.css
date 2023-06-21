@@ -15,6 +15,6 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-.menu{
+.menu-hamburguer{
     background-image: url(./img/Menu.svg);
 }
