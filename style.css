@@ -15,6 +15,6 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-.container__botao{
+.menu{
     background-image: url(./img/Menu.svg);
 }
