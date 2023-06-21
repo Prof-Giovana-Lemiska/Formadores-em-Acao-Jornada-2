@@ -10,11 +10,13 @@ body {
 h1 {
     background-color: white;
 }
-.cabeçalho{
+
+.cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
 }
-.menu-hamburguer{
+
+.menu-hamburguer {
     background-image: url(./img/Menu.svg);
 }
