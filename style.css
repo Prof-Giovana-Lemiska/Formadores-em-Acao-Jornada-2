@@ -20,3 +20,7 @@ h1 {
 .menu-hamburguer {
     background-image: url(./img/Menu.svg);
 }
+
+.lista-menu {
+    display: none;
+}
