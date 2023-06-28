@@ -1,29 +1,20 @@
+@import url("styles/header.css");
+
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --amarelo: #FECD2F;
+    --roxo:#733887;
+    --fonte-principal: "Poppins";
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 h1 {
     background-color: white;
-}
-
-.cabeçalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-}
-
-.cabeçalho__menu-hamburguer {
-    background-image: url(./img/Menu.svg);
-}
-
-.lista-menu {
-    display: none;
-}
-.container__botao:checked~.lista-menu{
-    display: block;
 }
